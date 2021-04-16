@@ -155,53 +155,6 @@ footer .more-options{
     display: flex;
     justify-content: space-between;
 }
-.google-search-content{
-    width: 100%;
-    display: none;
-}
-.google-search-content ul{
-    padding: 0px;
-    position: relative;
-    top: 0px;
-    margin: 0px;
-    background-color: #fff;
-    box-shadow: 0 4px 6px #20212438;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.google-search input:focus + div.google-search-content {
-     display: block; 
-}
-.google-search-content ul a{
-    text-decoration: none;
-    width: 100%;
-}
-.google-search-content ul li{
-    list-style-type: none;
-    font-size: 16px;
-    padding: 6px;
-    padding-left: 50px;
-    outline: none;
-    color: #212121;
-    background: url(../assets/search.svg) no-repeat;
-    background-position: 14px;
-    background-size: 20px;
-    display: flex;
-    flex-direction: column;
-    width: 91%;
-    align-items: flex-start;
-}
-.google-search-content ul a:last-child li{
-    padding-bottom: 7px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-}
-.google-search-content ul li:hover{
-    background-color:#eee;
-}
 @media only screen and (max-width: 1200px) {
     footer .more-options{
         display: flex;
