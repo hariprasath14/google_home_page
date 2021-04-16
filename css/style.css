@@ -66,10 +66,7 @@ header{
     box-shadow: 0 1px 6px #20212447;
     border-color: #dfe1e500;
 }
-.google-search input:focus{
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-}
+
 .google-search input[type="search"]::-webkit-search-cancel-button {
     -webkit-appearance: none;
     height: 10px;
